@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana;
+}
+
+QWidget#window,Inserimento,QWidget#modifyWindow,QWidget#searchWindow,QWidget#ricercaWindow,QWidget#aboutWindow,QWidget#developmentInfoWindow,QWidget#durataWindow,QMessageBox{
+        background-color: #778899;
+}
+
+QLabel{
+        font-size:13px;
+}
+
+#titolo{
+        font-weight: bold;
+}
+
+#tipo{
+        font-weight: bold;
+        font-size:16px;
+}
+
+QListWidget{
+        border: 0px solid black;
+}
+
+QListWidget QLabel{
+        color:black;
+}
+
+QLineEdit {
+        padding: 2px 4px;
+}
+
+QLineEdit#searchBar{
+        border-radius: 10px;
+        padding: 2px 4px;
+}
+
+QSpinBox{
+        padding: 2px 4px;
+}
+
+QPushButton#searchButton{
+        background-color: #D3D3D3;
+        color: black;
+        border-radius: 10px;
+        padding: 3px 16px;
+        font-size:12px;
+}
